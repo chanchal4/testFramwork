@@ -11,6 +11,7 @@
 		811E7C0F25ADA2940097A853 /* KnobRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7C0C25ADA2940097A853 /* KnobRender.swift */; };
 		811E7C1025ADA2940097A853 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7C0D25ADA2940097A853 /* RotationGestureRecognizer.swift */; };
 		811E7C1125ADA2940097A853 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811E7C0E25ADA2940097A853 /* Knob.swift */; };
+		81E0476825B1D9B4001D5641 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0476725B1D9B4001D5641 /* APIHandler.swift */; };
 		84871968BD5D6A419A316DBB /* Pods_testFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186CC4FC426E772FB57BDA0E /* Pods_testFramwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		811E7C0C25ADA2940097A853 /* KnobRender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobRender.swift; sourceTree = "<group>"; };
 		811E7C0D25ADA2940097A853 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
 		811E7C0E25ADA2940097A853 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		81E0476725B1D9B4001D5641 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		C4EAB3FD98ED403B30DE5FAC /* Pods-testFramwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testFramwork.debug.xcconfig"; path = "Target Support Files/Pods-testFramwork/Pods-testFramwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +46,6 @@
 				C4EAB3FD98ED403B30DE5FAC /* Pods-testFramwork.debug.xcconfig */,
 				471A35FEDEE20E22DC3ECAB5 /* Pods-testFramwork.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -69,6 +70,7 @@
 		811E7C0225ADA2680097A853 /* testFramwork */ = {
 			isa = PBXGroup;
 			children = (
+				81E0476725B1D9B4001D5641 /* APIHandler.swift */,
 				811E7C0E25ADA2940097A853 /* Knob.swift */,
 				811E7C0C25ADA2940097A853 /* KnobRender.swift */,
 				811E7C0D25ADA2940097A853 /* RotationGestureRecognizer.swift */,
@@ -194,6 +196,7 @@
 				811E7C0F25ADA2940097A853 /* KnobRender.swift in Sources */,
 				811E7C1125ADA2940097A853 /* Knob.swift in Sources */,
 				811E7C1025ADA2940097A853 /* RotationGestureRecognizer.swift in Sources */,
+				81E0476825B1D9B4001D5641 /* APIHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
