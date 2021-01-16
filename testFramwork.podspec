@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "testFramwork"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "A small framework to monitor network changes in Swift."
   spec.description  = <<-DESC
                     NetStatus is a small and lightweight Swift framework that allows to monitor and being notified for network status changes in a super-easy way!
