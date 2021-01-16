@@ -10,17 +10,15 @@ import UIKit
 import Alamofire
 import NetworkExtension
 
-public class APIHandler: NSObject
+ class APIHandler: NSObject
 {
   
-    func callServiceMethodPOST(viewController : UIViewController, parameters : NSMutableDictionary , keyURL : String, isShowLoader:Bool, isHideLoader:Bool, loadingMsg:String, completionBlock : @escaping ( _ resposeObject : NSDictionary? ,  _ error : NSError?)-> Void )
+    func callServiceMethodPOST()
     {
-
         let parameters = ["category": "Movies", "genre": "Action"]
-
         AF.request("https://httpbin.org/get", parameters: parameters).response { response in
-            //debugPrint(response)
-        }
+                    //debugPrint(response)
+                }
     }
 
     

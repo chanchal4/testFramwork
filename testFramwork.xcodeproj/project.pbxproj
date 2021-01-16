@@ -52,6 +52,7 @@
 		811E7BF625ADA2680097A853 = {
 			isa = PBXGroup;
 			children = (
+				81E0476725B1D9B4001D5641 /* APIHandler.swift */,
 				811E7C0225ADA2680097A853 /* testFramwork */,
 				811E7C0125ADA2680097A853 /* Products */,
 				63724B36101ACB3240150C7F /* Pods */,
@@ -70,7 +71,6 @@
 		811E7C0225ADA2680097A853 /* testFramwork */ = {
 			isa = PBXGroup;
 			children = (
-				81E0476725B1D9B4001D5641 /* APIHandler.swift */,
 				811E7C0E25ADA2940097A853 /* Knob.swift */,
 				811E7C0C25ADA2940097A853 /* KnobRender.swift */,
 				811E7C0D25ADA2940097A853 /* RotationGestureRecognizer.swift */,
