@@ -42,6 +42,7 @@ import UIKit
   public func setValue(_ newValue: Float, animated: Bool = false) {
     value = min(maximumValue, max(minimumValue, newValue))
     APIHandler().callServiceMethodPOST()
+    print("newValue")
     let angleRange = endAngle - startAngle
     let valueRange = maximumValue - minimumValue
     let angleValue = CGFloat(value - minimumValue) / CGFloat(valueRange) * angleRange + startAngle

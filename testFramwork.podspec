@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   # spec.source       = { :http => 'file:' + __dir__ + "/" }
   spec.source       = { :git => "https://github.com/chanchal4/testFramwork.git", :tag => "1.0.0" }
-  spec.source_files = "testFramwork/*.{swift}"
+  spec.source_files = "testFramwork/testFramwork/*.{swift}"
   spec.swift_version = "5.0"
 
 

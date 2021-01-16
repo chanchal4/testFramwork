@@ -17,7 +17,7 @@ import NetworkExtension
     {
         let parameters = ["category": "Movies", "genre": "Action"]
         AF.request("https://httpbin.org/get", parameters: parameters).response { response in
-                    //debugPrint(response)
+                    print("APIHandler")
                 }
     }
 
