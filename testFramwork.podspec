@@ -22,6 +22,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/chanchal4/testFramwork.git", :tag => "1.0.0" }
   spec.source_files = "testFramwork/testFramwork/*.{swift}"
   spec.swift_version = "5.0"
-  s.dependency 'Alamofire', '5.4.1' 
+  spec.dependency 'Alamofire', '5.4.1' 
 
 end
